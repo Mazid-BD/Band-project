@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Deafault - Section */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.default-title{
+    text-align: center;
+    color: #fff;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* Menu Styling */
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li {
+    padding-right: 25px;
+}
+.menu ul li:last-child{
+    padding-right: 0px;
+}
+.menu li{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>জাভাস্ক্রিপ্ট উদাহরণ</title>
+</head>
+<body>
+
+<h4> () ছাড়া ফাংশন এক্সেস করলে ফাংশন ডেফিনেশন রিটার্ন হয়ঃ </h4>
+
+<p id="test"></p>
+
+<script>
+function myFunc(a, b) {
+    return a * b;
+}
+document.getElementById("test").innerHTML = myFunc(5, 6) * myFunc(8, 10);
+</script>
+
+<p id="test"></p>
+
+<script>
+var member = {firstName:"Azizur", lastName:"Rahman", age:32, eyeColor:"black", fullName : function() {
+       return this.firstName + " " + this.lastName;
+    }};
+document.getElementById("test").innerHTML = member.fullName();
+</script>
+
+</body>
+</html>
